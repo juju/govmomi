@@ -22,9 +22,9 @@ import (
 
 	"net/url"
 
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/guest"
-	"github.com/vmware/govmomi/object"
+	"github.com/juju/govmomi/govc/flags"
+	"github.com/juju/govmomi/guest"
+	"github.com/juju/govmomi/object"
 	"golang.org/x/net/context"
 )
 

@@ -17,8 +17,8 @@ limitations under the License.
 package soap
 
 import (
-	"github.com/vmware/govmomi/vim25/types"
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/juju/govmomi/vim25/types"
+	"github.com/juju/govmomi/vim25/xml"
 )
 
 type Envelope struct {

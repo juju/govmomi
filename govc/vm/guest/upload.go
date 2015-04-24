@@ -20,7 +20,7 @@ import (
 	"flag"
 	"os"
 
-	"github.com/vmware/govmomi/govc/cli"
+	"github.com/juju/govmomi/govc/cli"
 	"golang.org/x/net/context"
 )
 

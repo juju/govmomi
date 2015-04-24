@@ -19,10 +19,10 @@ package datacenter
 import (
 	"flag"
 
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/object"
+	"github.com/juju/govmomi/find"
+	"github.com/juju/govmomi/govc/cli"
+	"github.com/juju/govmomi/govc/flags"
+	"github.com/juju/govmomi/object"
 	"golang.org/x/net/context"
 )
 

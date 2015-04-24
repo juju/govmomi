@@ -22,7 +22,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/vmware/govmomi/object"
+	"github.com/juju/govmomi/object"
 	"golang.org/x/net/context"
 )
 

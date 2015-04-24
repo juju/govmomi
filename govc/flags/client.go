@@ -29,9 +29,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/vmware/govmomi/session"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/juju/govmomi/session"
+	"github.com/juju/govmomi/vim25"
+	"github.com/juju/govmomi/vim25/soap"
 	"golang.org/x/net/context"
 )
 

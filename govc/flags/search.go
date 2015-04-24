@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vim25"
+	"github.com/juju/govmomi/object"
+	"github.com/juju/govmomi/vim25"
 	"golang.org/x/net/context"
 )
 

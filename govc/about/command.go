@@ -22,8 +22,8 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
+	"github.com/juju/govmomi/govc/cli"
+	"github.com/juju/govmomi/govc/flags"
 )
 
 type about struct {

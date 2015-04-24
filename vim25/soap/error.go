@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/vim25/types"
 )
 
 type regularError struct {

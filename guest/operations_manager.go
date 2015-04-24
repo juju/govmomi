@@ -17,10 +17,10 @@ limitations under the License.
 package guest
 
 import (
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/property"
+	"github.com/juju/govmomi/vim25"
+	"github.com/juju/govmomi/vim25/mo"
+	"github.com/juju/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

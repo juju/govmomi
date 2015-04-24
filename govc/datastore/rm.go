@@ -20,10 +20,10 @@ import (
 	"errors"
 	"flag"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/govc/cli"
+	"github.com/juju/govmomi/govc/flags"
+	"github.com/juju/govmomi/object"
+	"github.com/juju/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

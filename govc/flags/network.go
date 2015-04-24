@@ -22,8 +22,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/object"
+	"github.com/juju/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

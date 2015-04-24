@@ -19,8 +19,8 @@ package autostart
 import (
 	"flag"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/govc/cli"
+	"github.com/juju/govmomi/vim25/types"
 )
 
 type configure struct {

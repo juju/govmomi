@@ -17,11 +17,11 @@ limitations under the License.
 package object
 
 import (
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/task"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/progress"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/property"
+	"github.com/juju/govmomi/task"
+	"github.com/juju/govmomi/vim25"
+	"github.com/juju/govmomi/vim25/progress"
+	"github.com/juju/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

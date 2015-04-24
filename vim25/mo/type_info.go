@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/vim25/types"
 )
 
 type typeInfo struct {
