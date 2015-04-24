@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vmware/govmomi/test"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/juju/govmomi/test"
+	"github.com/juju/govmomi/vim25"
+	"github.com/juju/govmomi/vim25/soap"
 	"golang.org/x/net/context"
 )
 

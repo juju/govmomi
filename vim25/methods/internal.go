@@ -17,8 +17,8 @@ limitations under the License.
 package methods
 
 import (
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/vim25/soap"
+	"github.com/juju/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

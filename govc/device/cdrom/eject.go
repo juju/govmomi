@@ -19,8 +19,8 @@ package cdrom
 import (
 	"flag"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
+	"github.com/juju/govmomi/govc/cli"
+	"github.com/juju/govmomi/govc/flags"
 	"golang.org/x/net/context"
 )
 

@@ -59,11 +59,11 @@ package govmomi
 import (
 	"net/url"
 
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/session"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/property"
+	"github.com/juju/govmomi/session"
+	"github.com/juju/govmomi/vim25"
+	"github.com/juju/govmomi/vim25/soap"
+	"github.com/juju/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/vim25/types"
 )
 
 type AuthFlag struct {

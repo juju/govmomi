@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/govc/host/esxcli"
-	"github.com/vmware/govmomi/object"
+	"github.com/juju/govmomi/govc/cli"
+	"github.com/juju/govmomi/govc/flags"
+	"github.com/juju/govmomi/govc/host/esxcli"
+	"github.com/juju/govmomi/object"
 	"golang.org/x/net/context"
 )
 

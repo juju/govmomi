@@ -17,8 +17,8 @@ limitations under the License.
 package object
 
 import (
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/vim25"
+	"github.com/juju/govmomi/vim25/types"
 )
 
 type Reference interface {

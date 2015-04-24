@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/vmware/govmomi/test"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/test"
+	"github.com/juju/govmomi/vim25/mo"
+	"github.com/juju/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

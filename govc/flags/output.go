@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/progress"
+	"github.com/juju/govmomi/vim25/progress"
 )
 
 type OutputWriter interface {

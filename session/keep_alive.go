@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/juju/govmomi/vim25/methods"
+	"github.com/juju/govmomi/vim25/soap"
 	"golang.org/x/net/context"
 )
 

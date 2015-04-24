@@ -22,10 +22,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/juju/govmomi/vim25/methods"
+	"github.com/juju/govmomi/vim25/mo"
+	"github.com/juju/govmomi/vim25/soap"
+	"github.com/juju/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 
