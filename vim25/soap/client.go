@@ -63,15 +63,26 @@ func NewClient(u *url.URL, insecure bool) *Client {
 	// Initialize http.RoundTripper on client, so we can customize it below
 	c.t = &http.Transport{
 		Proxy: http.ProxyFromEnvironment,
-		Dial: (&net.Dialer{
-			Timeout:   30 * time.Second,
-			KeepAlive: 30 * time.Second,
-		}).Dial,
+		Dial: func(network, address string) (net.Conn, error) {
+			dialer := &net.Dialer{
+				Timeout: 30 * time.Second,
+			}
+			conn, err := dialer.Dial(network, address)
+			if err != nil {
+				return conn, err
+			}
+			if tc, ok := conn.(*net.TCPConn); ok {
+				keepAlive := 30 * time.Second
+				tc.SetKeepAlive(true)
+				tc.SetKeepAlivePeriod(keepAlive)
+			}
+			return conn, nil
+		},
 	}
 
 	if c.u.Scheme == "https" {
 		c.t.TLSClientConfig = &tls.Config{InsecureSkipVerify: c.k}
-		c.t.TLSHandshakeTimeout = 10 * time.Second
+		setTLSHandshakeTimeout(c.t, 10*time.Second)
 	}
 
 	c.Client.Transport = c.t
